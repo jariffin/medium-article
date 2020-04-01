@@ -1,0 +1,86 @@
+ *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+.banner{
+  background-image: url(https://source.unsplash.com/random/1600x900/);
+  background-size: cover;
+  color: black;
+  padding: 120px 0;
+  margin: 0px auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&family=Satisfy&display=swap');
+
+body {
+  background-color: #f1fcfc;
+  font-family: 'Satisfy';
+}
+
+h1, h2 {
+  font-family: 'Satisfy';
+  font-size: 32px;
+  font-weight: 500;
+  color: #1eb2a6;
+}
+
+p {
+  font-family: 'Lato';
+  color: #231903;
+}
+
+a {
+  text-decoration: none;
+}
+
+.div-comment{
+  text-align: right;
+}
+.comment{
+  color: #d7385e;
+}
+.comment:hover{
+  color: orange;
+}
+
+.container {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+.card-white {
+  background-color: white;
+  text-align: left;
+  padding: 30px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px 5px rgba(0,0,0,0.05)
+}
+.header-white {
+  color: white;
+  font-size: 64px;
+}
+
+.blurb-white{
+  color: white;
+  font-size: 32px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
